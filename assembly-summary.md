@@ -117,7 +117,7 @@ CPU 对外部设备都不能直接控制，如显示器、音箱等，直接控�
 - DI（Destination Index）：目的变址寄存器，可用来存放相对于 ES 段之目的变址指针
 - FR（Flag Register）：标志寄存器，有9个有意义的标志
 
-*8086机中，任意时刻，CPU 将 CS:IP 指向的内容当做指令执行。*
+***8086机中，任意时刻，CPU 将 CS:IP 指向的内容当做指令执行。***
 
 ##### 物理地址=段地址x16+偏移地址
 
@@ -129,5 +129,23 @@ CPU 对外部设备都不能直接控制，如显示器、音箱等，直接控�
 
 ![](./resources/assembly/2.10.png)
 
- #### 第三章 寄存器（内存访问）
+##### Debug 工具的使用
+
+ ![](./resources/assembly/2.1.1.png)
+
+ #### 第三章 寄存器（内存访问） 
+
+##### mov 指令
+
+ ![](./resources/assembly/3.4.1.png)
+
+***SS:SP指向当前栈顶的地址***
+
+##### CPU 提供的栈机制
+
+ ![](./resources/assembly/3.7.1.png)
+
+##### 栈顶越界问题
+
+ ![](./resources/assembly/3.8.1.png)
 
