@@ -37,7 +37,7 @@ CPU要想进行数据的读写，必须和芯片进行下面3类信息的交互�
 
 总线从物理上来讲，就是一根根导线的集合。根据传送的信息的不同，逻辑上分为3类：地址总线，控制总线和数据总线。
 
- ![](./resources/1.3.png)
+ ![](./resources/assembly/1.3.png)
 
 ##### 地址总线
 
@@ -45,15 +45,15 @@ CPU 通过地址总线来制定存储器单元，地址总线上能传送多少�
 
 一个 CPU 有 N 根地址线，则这个 CPU 的地址总线宽度为 N，这样的 CPU 最多可以寻找2的 N 次方个内存单元。
 
- ![](./resources/1.4.png)
+ ![](./resources/assembly/1.4.png)
 
 ##### 数据总线
 
 CPU 与内存或其他器件之间的数据传送是通过数据总线来进行的。数据总线的宽度决定 CPU 和外界的数据传送速度，8根数据总线一次可以传送一个字节，16根数据总线一次可以传送两个字节。
 
- ![](./resources/1.5.png)
+ ![](./resources/assembly/1.5.png)
 
- ![](./resources/1.6.png)
+ ![](./resources/assembly/1.6.png)
 
 ##### 控制总线
 
@@ -74,17 +74,17 @@ CPU 对外部设备都不能直接控制，如显示器、音箱等，直接控�
 - RAM可读写，必须带点存储，断电内容丢失。
 - ROM只读，断电内容不丢失。
 
- ![](./resources/1.7.png)
+ ![](./resources/assembly/1.7.png)
 
 ##### 内存地址空间
 
- ![](./resources/1.8.png)
+ ![](./resources/assembly/1.8.png)
 
 ##### 小结
 
- ![](./resources/1.summary-1.png)
+ ![](./resources/assembly/1.summary-1.png)
 
- ![](./resources/1.summary-2.png)
+ ![](./resources/assembly/1.summary-2.png)
 
 #### 第二章 寄存器
 
@@ -97,7 +97,7 @@ CPU 对外部设备都不能直接控制，如显示器、音箱等，直接控�
 - CH&CL＝CX：计数寄存器，常用于计数
 - DH&DL＝DX：数据寄存器，常用于数据传递
 
-  ![](./resources/2.1.png)
+  ![](./resources/assembly/2.1.png)
 
 ##### 段地址寄存器
 
@@ -121,13 +121,13 @@ CPU 对外部设备都不能直接控制，如显示器、音箱等，直接控�
 
 ##### 物理地址=段地址x16+偏移地址
 
- ![](./resources/2.6.png)
+ ![](./resources/assembly/2.6.png)
 
- ![](./resources/2.6.1.png)
+ ![](./resources/assembly/2.6.1.png)
 
 ##### 8086 CPU 读取，执行指令的工作原理
 
-![](./resources/2.10.png)
+![](./resources/assembly/2.10.png)
 
  #### 第三章 寄存器（内存访问）
 
